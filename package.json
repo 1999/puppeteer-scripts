@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-scripts",
+  "version": "0.0.0",
+  "private": true,
+  "description": "My private puppeteer scripts",
+  "main": "index.js",
+  "scripts": {
+    "cba-appartment-rent": "DEBUG=puppeteer-scripts:cba-appartment-rent:* node scripts/cba-appartment-rent.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitrii Sorin <info@staypositive.ru>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "puppeteer": "^0.11.0"
+  }
+}
